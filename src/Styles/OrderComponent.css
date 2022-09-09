@@ -1,0 +1,266 @@
+/**************** OrderComponent Container Styles *******************/
+.order-comp{
+  
+    
+    margin-top: 28px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+
+.order-comp::-webkit-scrollbar{
+    display: none;
+}
+.oc-scroll{
+    border: 1.5px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 27px 15px;
+    min-width: 786px;
+    
+}
+
+/* order component head */
+.order-head{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap:80px;
+    margin-bottom: 50px;
+}
+
+.ohc-p1{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+
+    /* dark Gray text */
+
+    color: #737376;
+    margin-bottom: 3px;
+}
+
+.ohc-p2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    
+    /* primary black */
+    
+    color: #171719;
+    
+}
+
+.ohc-flex{
+    display: flex;
+    align-items: center;
+    gap:9px;
+}
+
+.ohc-f-right{
+    background: #0DC74E;
+}
+.ohc-f-right1{
+    background: #BAA500;
+    border-radius: 3px;
+    
+}
+
+.ohc-f-right p, .ohc-f-right1 p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    /* border:1px solid green; */
+    color: #FFFFFF;
+    padding: 2px 8px;
+    
+}
+
+
+/* ********* OrderComp Itemps ********* */
+
+.order-comp-items{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.oct-header{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    
+    /* dark Gray text */
+    
+    color: #737376;
+    
+}
+
+.ordered-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.order-item-comp{
+    background: #EBEBEB;
+    /* Light border */
+
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    padding: 9px 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    /* primary black */
+    
+    color: #171719;
+}
+
+
+
+
+
+/* ********* OrderComp add Info ********* */
+
+.ordercomp-addinfo{
+    /* border: 1px solid red; */
+    margin-top:40px;
+}
+
+.oa-p1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    /* dark Gray text */
+    
+    color: #737376;
+    margin-bottom: 5px;
+}
+
+.oa-p2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    
+    /* primary black */
+    
+    color: #171719; 
+    margin-bottom: 27px;  
+}
+
+.deliv-dets{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.deliv-boy{
+    background: #F6F6F6;
+    border-radius: 5px;
+    padding: 20px;
+    height: 170px;
+}
+
+.db-head{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    
+    /* primary black */
+    
+    color: #171719;
+    margin-bottom: 27px;
+}
+
+.db-body{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.db-one{
+/* border: 1px solid red; */
+}
+
+.dbo-top{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    
+    /* dark Gray text */
+    
+    color: #737376;
+}
+
+.dbo-bottom{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    
+    /* primary black */
+    
+    color: #171719;
+}
+
+.db-line{
+    height: 60px;
+    width: 1px;
+    background-color: #737376;
+}
+
+.dbob-blue{
+    font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.05em;
+
+/* dark Gray text */
+
+color: blue;
+}
+
+.dbo-flexx{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    justify-content: space-between;
+}
+
+
+/* Large devices (laptops/desktops, 900px and down) */
+@media only screen and (max-width: 900px) {
+    .deliv-dets{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

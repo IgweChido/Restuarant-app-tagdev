@@ -1,0 +1,7 @@
+/**************** Main Container Styles *******************/
+.main-container{
+    /* border: 1px solid blue; */
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+}

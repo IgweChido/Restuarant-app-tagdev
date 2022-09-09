@@ -1,0 +1,116 @@
+/**************** main page Container Styles *******************/
+
+.main-page{
+    position: relative;
+    /* border: 1px solid green; */
+    flex: 1 1;
+    max-height: 100vh;
+    padding: 35px;
+    overflow: auto;
+    /* margin-left: 394px; */
+}
+
+.phone-nav{
+    display: none;
+}
+
+.phone-side{
+    display: none;
+}
+
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+.phone-nav{
+    /* border: 1px solid green; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: #EDEDED;
+    z-index: 1;
+}
+
+.logo-divv{
+    width: 40px;
+}
+
+.logo-divv img{
+    width: 100%;
+}
+
+.phone-side{
+    display: block;
+    /* border:1px solid blue; */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.phones-main{
+   width: 50%;
+    display: flex;
+    /* border:1px solid green; */
+    height: 100vh;
+    max-height: 100vh;
+    /* overflow: auto; */
+    /* flex-direction: column; */
+    flex-shrink: 0;
+}
+
+.cancel{
+    position: absolute;
+    top:25px;
+    right: 25px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background: #F6F6F6;
+}
+
+.cancel img{
+    display: block;
+    margin:  4px auto 0;
+}
+
+}
+
+/* Large devices (laptops/desktops, 950px and down) */
+@media only screen and (max-width: 950px) {
+    .phone-nav{
+        padding: 0px 15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .phones-main{
+        width: 85%;
+    }
+}
+
+/* Large devices (laptops/desktops, 480px and down) */
+@media only screen and (max-width: 480px) {
+    .cancel{
+        right: 10px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 1250px and down) */
+@media only screen and (max-width: 1250px) {
+    .main-page{
+        padding: 35px 10px !important;
+    }
+}
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+    .main-page{
+        padding: 0  !important;
+    }
+}

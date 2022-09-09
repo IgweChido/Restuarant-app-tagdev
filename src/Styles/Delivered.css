@@ -1,0 +1,211 @@
+/**************** Delivered Container Styles *******************/
+.delivered{
+    max-width: 1440px;
+    /* border: 1px solid red; */
+    margin: 0 auto 60px;
+    display: block;
+    
+}
+
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+    .delivered{
+        margin: 100px  35px 60px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 950px and down) */
+@media only screen and (max-width: 950px) {
+    .delivered{
+        margin: 100px  15px 60px !important;
+    }
+}
+
+.delivered-head{
+    /* border: 1px solid green; */
+}
+
+.d-header{
+    /* border:1px solid blue; */
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* primary black */
+
+    color: #171719;
+    margin-bottom: 37px;
+}
+
+.d-body{
+    /* border: 1px solid red; */
+}
+
+.show-add{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+/* Large devices (laptops/desktops, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .show-add{
+      
+    }
+
+    .d-left-side{
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 480px and down) */
+@media only screen and (max-width: 480px){
+    .show-add{
+      flex-direction: column;
+      align-items: flex-start;
+     
+    }
+
+    .d-right-side{
+        margin-top: 20px;
+    }
+}
+
+.d-left-side{
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    gap:25px;
+    
+}
+
+.d-show-order{
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+
+.d-order-box{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    padding: 15px 20px;
+    background: #EBEBEB;
+    justify-content: space-between;
+    /* text box color */
+
+    border: 1px solid #EBEBEB;
+    border-radius: 5px 0px 0px 5px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    
+    /* primary black */
+    
+    color: #171719;
+    cursor: pointer;
+    
+}
+
+/* Large devices (laptops/desktops, 330px and down) */
+@media only screen and (max-width: 330px){
+    .d-order-box{
+        padding: 15px 10px !important;
+        gap:5px;
+    }
+}
+
+.d-plus-box{
+    /* border:1px solid green; */
+    width: 46px;
+    height: 51px;
+    
+    background: #F6F6F6;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+
+}
+
+.d-plus-box img{
+   
+    display: block;
+    margin: 20px auto 21px;
+}
+
+.d-add-filter{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    
+    color: #2A71FA;
+    cursor: pointer;
+}
+
+.d-right-side{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+
+.d-box1{
+    background: #E8F0FF;
+    border: 1.2px solid #286FFA;
+    border-radius: 0px 4px 4px 0px;
+    transform: rotate(-180deg);
+    width: 44px;
+    height: 42px;
+    cursor: pointer;
+    
+}
+.d-box1 img{
+    display: block;
+    margin: 11px auto ;
+}
+
+
+
+.d-box2{
+   
+    background: #FFFFFF;
+    /* Light gray text */
+
+    border: 1.2px solid #B4B4B5;
+    border-radius: 0px 4px 4px 0px;
+    width: 44px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.d-box2 img{
+    display: block;
+    margin: 12px auto;
+}
+
+.dh-line{
+    height: 1px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+
